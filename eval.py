@@ -14,8 +14,8 @@ from input_helpers import InputHelper
 tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
 tf.flags.DEFINE_string("checkpoint_dir", "", "Checkpoint directory from training run")
 tf.flags.DEFINE_string("eval_filepath", "match_valid.tsv", "Evaluate on this data (Default: None)")
-tf.flags.DEFINE_string("vocab_filepath", "runs/1479874609/checkpoints/vocab", "Load training time vocabulary (Default: None)")
-tf.flags.DEFINE_string("model", "runs/1479874609/checkpoints/model-32000", "Load trained model checkpoint (Default: None)")
+tf.flags.DEFINE_string("vocab_filepath", "runs/1489649051/checkpoints/vocab", "Load training time vocabulary (Default: None)")
+tf.flags.DEFINE_string("model", "runs/1489649051/checkpoints/model-68000", "Load trained model checkpoint (Default: None)")
 
 # Misc Parameters
 tf.flags.DEFINE_boolean("allow_soft_placement", True, "Allow device soft device placement")
